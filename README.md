@@ -1,21 +1,37 @@
 # [Dot_files](https://youtu.be/y6XCebnB9gs?si=u9g03qcuPGH9sUrm)
-  This is a simple adaptation of zensh
-# [fzf](https://github.com/junegunn/fzf.git)
+ - Dependencies
+    - macOS
+       - brew
+         `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
+       - git
+         `brew install git`
+       - GNU stow
+         `brew install stow`
+       - Tree
+         `brew install tree`
+       - [fzf](https://github.com/junegunn/fzf.git)
+         `brew install fzf`
+       - [zoxide](https://github.com/ajeetdsouza/zoxide.git)
+         `brew install zoxide`
+       
+         
+     - Ubuntu
+       - git
+         `sudo apt install git`
+       - GNU stow
+         `sudo apt install stow`
+       - Tree
+         `sudo apt install tree`
+       - [fzf](https://github.com/junegunn/fzf.git)
+         `sudo apt install fzf`
+       - [zoxide](https://github.com/ajeetdsouza/zoxide.git)
+         `curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh`
+ 
+    
 
-- Ubuntu
-    `sudo apt install fzf`
-- macOS 
-    `brew install fzf`
-
-
-# [zoxide](https://github.com/ajeetdsouza/zoxide.git)
-
-- Ubuntu
-    `curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh`
-- macOS 
-    `brew install zoxide`
+    
   
-### Add these line to .zshrc
+### Add these lines to .zshrc
     `eval "$(zoxide init zsh)"`
     `source <(fzf --zsh)`
 

@@ -26,6 +26,7 @@
          `sudo apt install fzf`
        - [zoxide](https://github.com/ajeetdsouza/zoxide.git)
          `curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh`
+       - or run the included .sh file
  
     
 
